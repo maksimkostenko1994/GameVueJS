@@ -38,7 +38,7 @@
                                 <li v-for="finish in finished"
                                     v-if="finish.questId === product.id && finish.name === leaf"><span
                                         style="color: green"
-                                        class="glyphicon glyphicon-ok">{{leaf}}</span></li>
+                                        class="glyphicon glyphicon-ok"></span></li>
                             </ul>
                         </td>
                     </tr>
